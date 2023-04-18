@@ -47,10 +47,63 @@ Next, connect your newly created VM using Remote Desktop and using the public IP
 <p>
 </p>
 <p>
-  
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now that you are connected, you will enable IIS. In your remote desktop, click the control panel then select uninstall a program. Off to the left, select "Turn windows features on or off". A list will appear then you will enable Internet Information Services.
+<p> 
+<img src="https://i.imgur.com/qKgwDMD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+</p>
+<p>
+Since we have enabled IIS, we need to install Web Platform Installer. Here is the link:                                                                             https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+ This link will provide you with all the material you need to download to get osTicket up and running. Simply click the link and install 
+</p>
+<img src="https://i.imgur.com/8hDn4qj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p> 
+Once you have installed Web Installer Platform, will download and install the following: PHP Manager for IIS, Rewrite Module, PHP 7.3.8(unzip contents into C:\PHP), VC redist.x86.exe, and last MySQL 5.5.62.
+</p>
+<img src="https://i.imgur.com/hoZn1kG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>
 </p>
 <p>
 
 </p>
-<br />
+<img src="https://i.imgur.com/qKgwDMD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br /> 
+<p> 
+</p> 
+<p> 
+ 
+</p> 
+ <img src="https://i.imgur.com/qKgwDMD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<p> 
+</p> 
+<p> 
+ 
+ 
+</p> 
+ <img src="https://i.imgur.com/qKgwDMD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<p> 
+</p> 
+<p> 
+ 
+ 
+ 
+</p> 
+ <img src="https://i.imgur.com/qKgwDMD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<p> 
+</p> 
+<p> 
+ 
+</p> 
+ <img src="https://i.imgur.com/qKgwDMD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<p>
+<p>
+
+
+
