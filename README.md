@@ -39,8 +39,8 @@ For installation, we need to create a virtual machine using the Microsoft Azure 
 
 </p>
 Next, connect your newly created VM using Remote Desktop and using the public IPv4 address.
-
-
+</p>
+<img src="https://imgur.com/a/BbUkK2p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
