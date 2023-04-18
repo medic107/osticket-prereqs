@@ -74,36 +74,38 @@ To download osTicket, download osTicket from installation file folder, extract a
 <p> 
 </p> 
 <p> 
- 
+ To enable osTicket, go to IIS-sites-default-osTicket, click on PhP manager, click enable an extention and enable the following: php_imap.dll,php_intl.dll, and opcache.dll. Refresh the os Ticket site in your browser, observe the changes.
 </p> 
- <img src="https://i.imgur.com/qKgwDMD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/xMGdu7w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br /> 
 <p> 
 </p> 
 <p> 
- 
- 
+To rename ost-config.php in the osticket file, go to files, go to c:drive, click on osticket-click on include-click on ost-smpleconfig.php and rename it ost-config.php.
+To assign permisssion, right click ost-config.php, click on properties-security-advance-disable inheritance. Remove all permissions and then add permission-select principal-type "everyone"-check names-full control.
 </p> 
- <img src="https://i.imgur.com/qKgwDMD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/Wl3swdt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br /> 
 <p> 
 </p> 
 <p> 
- 
- 
- 
+Continue setting up osTicket in the browser
+Name help desk
+Select a default email that will receive emails from customers who submit tickets.
 </p> 
- <img src="https://i.imgur.com/qKgwDMD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/Y3Z4wLb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br /> 
 <p> 
 </p> 
 <p> 
- 
+Continue setting up osticket in the browser MySQL(username-root) (password-Password1). Click install now
 </p> 
- <img src="https://i.imgur.com/qKgwDMD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/pm99h5q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br /> 
 <p>
 <p>
-
-
-
+If there are no errors, it should read "Congratulations"
+Clean up
+Delete: C:\inetpub\wwwroot\osTicket\setup
+Set permissions to "read" only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+Login to the osTicket Admin Panel(http://localhost/osTicket/scp/login.php)
