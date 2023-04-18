@@ -40,7 +40,6 @@ For installation, we need to create a virtual machine using the Microsoft Azure 
 </p>
 Next, connect your newly created VM using Remote Desktop and using the public IPv4 address.
 
-<img src="https://imgur.com/WC8bX6y" height="80%" width="80%" alt=
 
 </p>
 <br />
