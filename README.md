@@ -68,7 +68,7 @@ Once you have installed Web Installer Platform, will download and install the fo
 <p>
 To download osTicket, download osTicket from installation file folder, extract and copy "upload" folder to c:\inetpub\wwwroot. Within c:\inetpub\wwwroot, rename "upload" to "osTicket". In IIS, click restart then go to sites-default-osTicket, and click "Browse:80" and the osTicket Installer should appear.
 </p>
-<img src="https://imgur.com/5FXtOzK" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/5FXtOzK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br /> 
 <p> 
