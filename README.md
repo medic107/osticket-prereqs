@@ -26,17 +26,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - osTicket Installation files
 - Heidi SQL
 
-
-
 <h2>Installation Steps</h2>
 
 <p>
-For installation, we need to create a virtual machine using the Microsoft Azure portal. Inside the portal, we will be using a VM which is a remote computer(separate from your main computer). We are using a VM in order to protect our physical machine in case something breaks. In Azure, create a resource group and title it "osTicket". Next, create a VM with 2 or 4 CPUs. For this setup, 4 CPUs is preferred.
-  
-  <img src="https://i.imgur.com/8lEQRrQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+For installation, we need to create a virtual machine using the Microsoft Azure portal. Inside the portal, we will be using a VM which is a remote computer(separate from your main computer). We are using a VM in order to protect our physical machine in case something breaks. In Azure, create a resource group and title it "osTicket". Next, create a VM with 2 or 4 CPUs. For this setup, 4 CPUs is preferred.
 
+ <img src="https://i.imgur.com/8lEQRrQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>  
+<br />
+<p>
 </p>
 Next, connect your newly created VM using Remote Desktop and using the public IPv4 address.
 </p>
@@ -45,6 +45,9 @@ Next, connect your newly created VM using Remote Desktop and using the public IP
 <br />
 
 <p>
+</p>
+<p>
+  
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
